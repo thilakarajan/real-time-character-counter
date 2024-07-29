@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  background-color: rgba(164, 121, 202, 0.524);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+  margin: 0px auto;
+}
+
+h1 {
+  font-family: 'Kalnia Glaze', serif;
+  font-optical-sizing: auto;
+}
+
+.section {
+  display: flex;
+  margin-top: 28vh;
+}
+
+.container {
+  width: fit-content;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+textarea {
+  margin: 0px auto;
+}
+
+p {
+  color: gray;
+}
+
+#rem {
+  color: red;
+  font-size: larger;
+}

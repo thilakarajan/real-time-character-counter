@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Character Counter</title>
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>Real Time Character Counter</h1>
+        <textarea
+          placeholder="Please write your text here"
+          maxlength="50"
+          rows="5"
+          cols="30"
+        ></textarea>
+        <span class="row">
+          <p>Total characters: <span id="count">0</span></p>
+          <p>Remaining: <span id="rem">50</span></p>
+        </span>
+      </div>
+    </div>
+  </body>
+  <script src="../../../jquery/jquery-3.7.1.js"></script>
+  <script src="script.js"></script>
+</html>
